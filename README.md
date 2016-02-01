@@ -8,6 +8,7 @@
 
 
 **Defaults:**
+
 `[hovereffect]`
 
 `<a class="hovereffect" href="http://yoursite.com/post"><span title="Post Title">Post Title</span></a>`
