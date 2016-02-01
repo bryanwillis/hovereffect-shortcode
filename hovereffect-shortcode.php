@@ -4,6 +4,7 @@
  *
  * @package   Link Hover Effect Shortcode
  * @author    Bryan Willis <bryanwillis1@gmail.com>
+ * @coauthor  @sebastianekstrom http://codepen.io/sebastianekstrom/pen/jDmKo
  * @license   GPL-2.0+
  * @link      http://wordpress.stackexchange.com/q/216171/43806
  *
