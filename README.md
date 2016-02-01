@@ -7,7 +7,7 @@
 `<a class="hovereffect" href="http://google.com"><span title="google">google</span></a>`
 
 
-**Defaults:**
+**Display the Current Post Title and Link:**
 
 `[hovereffect]`
 
