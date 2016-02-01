@@ -27,7 +27,7 @@ add_action( 'wp_enqueue_scripts', 'bw_hovereffect_scripts' );
 function bw_hovereffect_shortcode( $atts ) {
 	$atts = shortcode_atts(
 		array(
-			'text' => the_title(),
+			'text' => get_the_title(),,
 			'url' => get_post_permalink(),
 		), $atts, 'hovereffect' );
 	 wp_enqueue_style('hovereffect');
