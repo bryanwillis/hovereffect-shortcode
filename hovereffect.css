@@ -42,7 +42,8 @@ a.hovereffect span {
 }
 
 a.hovereffect span:after {
-	content: attr(title);
+	/* content: attr(title); */
+	content: attr(data-title);
 	display: block;
 	position: absolute;
 	left: 0;
