@@ -31,6 +31,6 @@ function bw_hovereffect_shortcode( $atts ) {
 			'url' => get_post_permalink(),
 		), $atts, 'hovereffect' );
 	 wp_enqueue_style('hovereffect');
-	return '<a class="hovereffect" href="'.esc_attr($atts['url']).'"><span title="'.$atts['text'].'">'.$atts['text'].'</span></a>';
+	return '<a class="hovereffect" href="'.esc_attr($atts['url']).'"><span data-title="'.$atts['text'].'">'.$atts['text'].'</span></a>';
 }
 add_shortcode( 'hovereffect', 'bw_hovereffect_shortcode' );
